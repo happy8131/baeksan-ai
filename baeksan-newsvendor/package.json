@@ -6,6 +6,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "exact": "node src/exact.ts",
+    "simulate": "node src/runSimulation.ts",
     "prompts:backfill": "node prompts/backfill-prompts.ts"
   },
   "devDependencies": {
