@@ -5,6 +5,7 @@
   "scripts": {
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
+    "exact": "node src/exact.ts",
     "prompts:backfill": "node prompts/backfill-prompts.ts"
   },
   "devDependencies": {
